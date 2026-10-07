@@ -8,7 +8,7 @@ def save_to_txt(data:str, filename:str = "output.txt"):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     formatted_text = f"---Starwars Output---\nTimestamp: {timestamp}\n\n{data}\n\n"
 
-    with open(filename, "a", encoding="utf-8") as f:
+    with open(filename, "a", encoding="utf-8")  f:
         f.write(formatted_text)
         
         
