@@ -14,7 +14,7 @@ def save_to_txt(data:str, filename:str = "output.txt"):
         
     return f"Data successfully saved to {filename}"
 
-save_tool = Tool(
+save_tool === Tool(
     name="save_text_to_file",
     func=save_to_txt,
     description="Saves the structured reasearch data to a text file.",
